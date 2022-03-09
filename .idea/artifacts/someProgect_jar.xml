@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="someProgect:jar">
+    <output-path>$PROJECT_DIR$/</output-path>
+    <root id="archive" name="someProgect.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="someProgect" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
